@@ -1,0 +1,28 @@
+# Rust
+target/
+# Cargo.lock is committed: the experiments are binaries, and Cargo recommends
+# committing it for those.
+
+# WASM build artifacts
+pkg/
+
+# Node/npm
+node_modules/
+dist/
+
+# Secrets: API keys live in .env, which is never committed. .env.example,
+# with placeholder values, is.
+.env
+.env.*
+!.env.example
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.claude
+
+# OS
+.DS_Store
+Thumbs.db
